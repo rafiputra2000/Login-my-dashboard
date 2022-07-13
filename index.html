@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Login My Dashboard</title>
+</head>
+<body>
+    <!-- **************************************Header********************************************** -->
+    <header id="header">
+        <nav class="navbar navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand">Login Dashboard</a>
+              <div class="d-flex" id="clock">
+                <h4 id="date-time"></h4>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- **************************************Main********************************************** -->
+    <main id="main">
+        <div class="container-fluid">
+            <div class="box">
+                <div class="form-box-left">
+                    <div class="mb-4 logo">
+                        <img class="img-logo" src="images/Logo-Dashboard.png" alt="">
+                        <h3 class="title">Welcome to my dashboard</h3>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Please login to your account</label>
+                      </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control inner-input" id="exampleInputEmail1" placeholder="Username">
+                      </div>
+                      <div class="mb-3">
+                        <input type="password" class="form-control inner-input" id="exampleInputPassword1" placeholder="Password">
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                      <div class="mb-3 mt-3" >
+                        <span>don't have a account ?</span>
+                        <a href="http://">Register</a>
+                      </div>
+                </div>
+                <div class="form-box-right">
+                    <img src="images/Coding-animation-login.gif" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- **************************************Footer********************************************** -->
+    <footer id="footer">
+        <div class="container-fluid">
+            <p>Copyright 2022 By Rafi Pramasukma E.</p>  
+            <span>
+                <a href="https://www.linkedin.com/in/rafi-pramasukma/"><img class="logo-social-media" src="images/linkedin.png" alt=""></a>
+            </span>
+            <span>
+                <a href="https://www.instagram.com/rafi_sukma/"><img class="logo-social-media" src="images/instagram.png" alt=""></a>
+            </span>
+            <span>
+                <a href="https://github.com/rafiputra2000/"><img class="logo-social-media" src="images/github-sign.png" alt=""></a>
+            </span>
+        </div>
+    </footer>
+    <script src="time.js" type="text/javascript"></script>
+</body>
+</html>
