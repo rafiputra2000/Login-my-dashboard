@@ -51,18 +51,17 @@ footer .logo-social-media:hover{
 }
 
 
-/* @media screen and (max-width:900px) {
+@media screen and (max-width:900px) {
 
-    #main .form-box-left{
-        width: 100%;
-        height: 200px;
+
+    #main .img-logo{
+        display: none
     }
-
-    #main .form-box-right{
-        width: 100%;
-        height: 200px;
+    
+    #main .img-right{
+        display: none;
     }
     
   
-  } */
+  }
 
